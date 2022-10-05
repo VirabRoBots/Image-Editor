@@ -137,10 +137,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("BACK", callback_data="help_data")
+                    InlineKeyboardButton("BACK", callback_data="help_data"),
                 ],
-                    )
-                ]
             ]
         )
         await query.message.edit_text(
