@@ -13,6 +13,6 @@ For more click help....</b>"""
 
 <code>🌀 Your Edited Image will be Uploaded </code>
 """
-    ABOUT_MSG = """⭕️<b>My Name : {}</b>
+    ABOUT_MSG = """⭕️<b>My Name : <a href='https://t.me/Virab_ImageEdit_Bot'>Vɪʙ Iᴍᴀɢᴇ Eᴅɪᴛᴏʀ</a>
 ⭕️<b>Language :</b> <code>Python3</code>
 ⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a>"""
