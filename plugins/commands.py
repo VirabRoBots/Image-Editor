@@ -14,7 +14,6 @@ async def start(client: Client, message: Message):
                 [
                     [
                         InlineKeyboardButton("Hᴇʟᴘ", callback_data="help_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
                     ],
                     [
                         InlineKeyboardButton(
