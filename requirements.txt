@@ -1,7 +1,7 @@
 NumPy
 tgcrypto
 Pillow
-pyrogram
+git+https://github.com/subinps/pyrogram@inline-m
 glitch_this
 requests
 opencv-python-headless
