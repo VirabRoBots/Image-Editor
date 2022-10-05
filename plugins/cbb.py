@@ -106,11 +106,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("HELP", callback_data="help_data"),
+                    InlineKeyboardButton("Hᴇʟᴘ", callback_data="help_data"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url="https://t.me/Virab_Bot_Updates"
                     )
                 ],
             ]
@@ -125,8 +125,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("BACK", callback_data="start_data"),
-                    InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                    InlineKeyboardButton("Bᴀᴄᴋ", callback_data="start_data"),
+                    InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="about_data"),
                 ],
             ]
         )
@@ -137,7 +137,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
+                    InlineKeyboardButton("Bᴀᴄᴋ", callback_data="help_data"),
                 ],
             ]
         )
