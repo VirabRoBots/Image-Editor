@@ -13,7 +13,7 @@ async def start(client: Client, message: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("HELP", callback_data="help_data"),
+                        InlineKeyboardButton("Hᴇʟᴘ", callback_data="help_data"),
                         InlineKeyboardButton("ABOUT", callback_data="about_data"),
                     ],
                     [
@@ -39,14 +39,8 @@ async def help(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BACK", callback_data="start_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            "Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ",
-                            url="https://t.me/virab_bot_updates",
-                        )
+                        InlineKeyboardButton("Bᴀᴄᴋ", callback_data="start_data"),
+                        InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="about_data"),
                     ],
                 ]
             ),
@@ -65,14 +59,7 @@ async def about(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BACK", callback_data="help_data"),
-                        InlineKeyboardButton("START", callback_data="start_data"),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            "Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ",
-                            url="https://t.me/virab_bot_updates",
-                        )
+                        InlineKeyboardButton("Bᴀᴄᴋ", callback_data="help_data"),
                     ],
                 ]
             ),
