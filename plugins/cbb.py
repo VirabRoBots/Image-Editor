@@ -143,7 +143,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
+                    InlineKeyboardButton("BACK", callback_data="help_data")
                 ]
                     )
                 ],
@@ -154,7 +154,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "glitch":
         await query.message.edit_text(
-            "**Select required mode**ㅤㅤㅤㅤ",
+            "**Select required mode**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
