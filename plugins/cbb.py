@@ -111,7 +111,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url="https://github.com/TroJanzHEX/Image-Editor"
                     )
                 ],
             ]
@@ -131,7 +131,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url="https://github.com/TroJanzHEX/Image-Editor"
                     )
                 ],
             ]
@@ -144,11 +144,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("START", callback_data="start_data"),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                ]
                     )
                 ],
             ]
