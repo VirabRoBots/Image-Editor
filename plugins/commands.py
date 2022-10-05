@@ -18,8 +18,8 @@ async def start(client: Client, message: Message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
+                            "Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ",
+                            url="https://t.me/virab_bot_updates",
                         )
                     ],
                 ]
@@ -44,8 +44,8 @@ async def help(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
+                            "Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ",
+                            url="https://t.me/virab_bot_updates",
                         )
                     ],
                 ]
@@ -70,8 +70,8 @@ async def about(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
+                            "Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ",
+                            url="https://t.me/virab_bot_updates",
                         )
                     ],
                 ]
